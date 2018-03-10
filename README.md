@@ -18,16 +18,16 @@ from prime_algorithms.algorithms.squareroot import SquareRoot
 from prime_algorithms.algorithms.sixk import SixK
 from prime_algorithms.algorithms.solovaystrassen import SolovayStrassen
 
-miller_rabin = MillerRabin()
-square_root = SquareRoot()
-six_k = SixK()
-solovay_strassen = SolovayStrassen()
 
 num = 3
-miller_rabin.isPrime(num)
-square_root.isPrime(num)
-six_k.isPrime(num)
-solovay_strassen.isPrime(num)
+
+//fast methods
+MillerRabin().isPrime(num)
+SolovayStrassen().isPrime(num)
+
+//slow methods
+SquareRoot().isPrime(num)
+SixK().isPrime(num)
 ```
 
 # How to Contribute
