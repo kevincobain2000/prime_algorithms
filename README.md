@@ -8,6 +8,14 @@ python >= 2.7 or >= 3.0
 
 ### Installation
 
+
+```
+pip install prime_algorithms
+```
+
+
+or directly from github
+
 ```
 python setup.py install
 ```
